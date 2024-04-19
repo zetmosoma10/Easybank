@@ -6,12 +6,8 @@ import Navbar from "./sections/Navbar";
 
 function App() {
   return (
-    <section>
-      <Navbar />
+    <section className="max-container">
       <Hero />
-      <Features />
-      <Articles />
-      <Footer />
     </section>
   );
 }

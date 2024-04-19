@@ -17,6 +17,9 @@ export default {
         Light_Grayish_Blue: "hsl(220, 16%, 96%)",
         Very_Light_Gray: " hsl(0, 0%, 98%)",
       },
+      gridTemplateColumns: {
+        "auto-fit_cols": "repeat(auto-fit, minmax(230px, 1fr))",
+      },
     },
   },
   plugins: [],

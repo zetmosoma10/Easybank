@@ -1,8 +1,18 @@
+import Articles from "./sections/Articles";
+import Features from "./sections/Features";
+import Footer from "./sections/Footer";
+import Hero from "./sections/Hero";
+import Navbar from "./sections/Navbar";
+
 function App() {
   return (
-    <>
-      <h1 className="text-4xl font-bold font-Public_sans">Hello World</h1>
-    </>
+    <section>
+      <Navbar />
+      <Hero />
+      <Features />
+      <Articles />
+      <Footer />
+    </section>
   );
 }
 

@@ -6,8 +6,8 @@ import Navbar from "./sections/Navbar";
 
 function App() {
   return (
-    <section className="max-container">
-      <Hero />
+    <section className="font-Public_sans ">
+      <Features />
     </section>
   );
 }

@@ -6,6 +6,9 @@ export default {
       Public_sans: ["Public Sans", "sans-serif"],
     },
     extend: {
+      screens: {
+        "lg-tablet": "860px",
+      },
       aspectRatio: {
         "1.8/1": "1.8 / 1",
       },

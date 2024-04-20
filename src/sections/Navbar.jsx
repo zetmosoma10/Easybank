@@ -5,7 +5,7 @@ import hamburgerIcon from "../assets/icon-hamburger.svg";
 
 const Navbar = () => {
   return (
-    <nav className="max-container flex items-center justify-between">
+    <nav className="max-container flex items-center justify-between z-10 ">
       <a className="py-5 lg-tablet:py-0" href="#">
         <img src={logo} alt="" />
       </a>

@@ -8,7 +8,11 @@ import Navbar from "./sections/Navbar";
 function App() {
   return (
     <section className="font-Public_sans ">
+      <Navbar />
       <Hero />
+      <Features />
+      <Articles />
+      <Footer />
     </section>
   );
 }

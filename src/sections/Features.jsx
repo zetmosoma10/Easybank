@@ -3,9 +3,9 @@ import { featureData } from "../constant";
 
 const Features = () => {
   return (
-    <section className=" bg-Light_Grayish_Blue py-[64px] md:py-[96px] ">
+    <section className=" bg-Light_Grayish_Blue py-[64px] md:py-[96px] lg-tablet:-mt-[100px] ">
       <div className="max-container">
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left max-w-[630px]">
           <h2 className="text-3xl md:text-4xl tracking-[-0.57px] md:tracking-[-0.71px] font-light text-Dark_Blue">
             Why choose Easybank?
           </h2>

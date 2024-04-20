@@ -5,10 +5,10 @@ import bgMobile from "../assets/bg-intro-mobile.svg";
 
 const Hero = () => {
   return (
-    <section className="bg-Very_Light_Gray">
+    <section className="bg-Very_Light_Gray overflow-hidden">
       <div
         className="max-container grid grid-rows-[50%,1fr] lg-tablet:grid-rows-[780px]
-         lg-tablet:grid-cols-2 lg-tablet:items-center lg-tablet:gap-8"
+         lg-tablet:grid-cols-2 lg-tablet:items-center lg-tablet:gap-8 "
       >
         <div
           className="order-2 lg-tablet:order-1 text-center 

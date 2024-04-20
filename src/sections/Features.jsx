@@ -8,7 +8,7 @@ const Features = () => {
       lg-tablet:mt-[-100px] "
     >
       <div className="max-container">
-        <div className="text-center lg-tablet:text-left max-w-[630px]">
+        <div className="text-center md:text-left max-w-[630px]">
           <h2 className="text-3xl lg-tablet:text-4xl tracking-[-0.57px] lg-tablet:tracking-[-0.71px] font-light text-Dark_Blue">
             Why choose Easybank?
           </h2>

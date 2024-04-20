@@ -1,11 +1,12 @@
 import Button from "../components/Button";
 import heroImg from "../assets/image-mockups.png";
+import MobileNav from "../components/MobileNav";
 import bgDesktop from "../assets/bg-intro-desktop.svg";
 import bgMobile from "../assets/bg-intro-mobile.svg";
 
-const Hero = () => {
+const Hero = ({ toggle }) => {
   return (
-    <section className="bg-Very_Light_Gray overflow-hidden">
+    <section className=" bg-Very_Light_Gray overflow-hidden">
       <div
         className="max-container grid grid-rows-[50%,1fr] lg-tablet:grid-rows-[780px]
          lg-tablet:grid-cols-2 lg-tablet:items-center lg-tablet:gap-8 "
@@ -34,6 +35,11 @@ const Hero = () => {
           <img className=" lg-tablet:max-w-[732px]" src={heroImg} alt="" />
         </div>
       </div>
+      {toggle && (
+        <div className="absolute top-[90px] left-0 right-0 bottom-0 m-auto lg-tablet:hidden ">
+          <MobileNav />
+        </div>
+      )}
     </section>
   );
 };

@@ -1,11 +1,15 @@
-import logo from "../assets/logo.svg";
 import Button from "../components/Button";
-import { navLinks } from "../constant";
+import logo from "../assets/logo.svg";
 import hamburgerIcon from "../assets/icon-hamburger.svg";
+import closeIcon from "../assets/icon-close.svg";
+import { navLinks } from "../constant";
 
-const Navbar = () => {
+const Navbar = ({ handleToggle, toggle }) => {
   return (
-    <nav className="max-container flex items-center justify-between z-10 ">
+    <nav
+      id="home"
+      className="max-container flex items-center justify-between z-10 "
+    >
       <a className="py-5 lg-tablet:py-0" href="#">
         <img src={logo} alt="" />
       </a>
@@ -26,11 +30,13 @@ const Navbar = () => {
       </ul>
       <div className="flex items-center ">
         <Button className="hidden lg-tablet:block">Request Invite</Button>
-        <img
-          className="lg-tablet:hidden cursor-pointer"
-          src={hamburgerIcon}
-          alt=""
-        />
+        <div onClick={handleToggle} className="lg-tablet:hidden cursor-pointer">
+          {!toggle ? (
+            <img src={hamburgerIcon} alt="" />
+          ) : (
+            <img src={closeIcon} alt="" />
+          )}
+        </div>
       </div>
     </nav>
   );

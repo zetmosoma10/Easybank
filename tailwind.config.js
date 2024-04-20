@@ -6,6 +6,9 @@ export default {
       Public_sans: ["Public Sans", "sans-serif"],
     },
     extend: {
+      aspectRatio: {
+        "1.8/1": "1.8 / 1",
+      },
       colors: {
         // Primary
         Dark_Blue: "hsl(233, 26%, 24%)",

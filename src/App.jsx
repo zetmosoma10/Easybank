@@ -8,7 +8,7 @@ import Navbar from "./sections/Navbar";
 function App() {
   return (
     <section className="font-Public_sans ">
-      <Navbar />
+      <Footer />
     </section>
   );
 }

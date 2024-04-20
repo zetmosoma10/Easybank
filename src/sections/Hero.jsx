@@ -1,8 +1,6 @@
 import Button from "../components/Button";
 import heroImg from "../assets/image-mockups.png";
 import MobileNav from "../components/MobileNav";
-import bgDesktop from "../assets/bg-intro-desktop.svg";
-import bgMobile from "../assets/bg-intro-mobile.svg";
 
 const Hero = ({ toggle }) => {
   return (
